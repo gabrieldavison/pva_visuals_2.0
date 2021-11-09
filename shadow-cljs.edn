@@ -1,0 +1,14 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/dev"
+  "src/main"
+  "src/test"]
+
+ :dependencies
+ [[rm-hull/infix "0.4.0"]]
+ :dev-http {8080 "public"}
+ :builds
+ {:app {:target :browser
+        ;; Toggles the HUD warnings off (enable when performing)
+        ;;:devtools {:hud false}
+        :modules {:main {:init-fn hclj.set2/init}}}}}

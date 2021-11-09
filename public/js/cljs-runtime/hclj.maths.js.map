@@ -1,0 +1,1 @@
+{"version":3,"sources":["hclj/maths.cljs"],"mappings":";AAGA,mBAAA,nBAAMA,8CAAOC,EAAEC,KAAKC;AAApB,AACE,QAAA,KAAA,CAAA,gBAAA,rBAAOF,MAAKE,OAAOD,kBAAcA","names":["hclj.maths/scale","n","omin","omax"],"sourcesContent":["(ns hclj.maths\n (:require-macros [infix.macros :refer [infix]]))\n\n(defn scale [n omin omax]\n  (infix n * (omax - omin) / 127 + omin))\n"]}

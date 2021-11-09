@@ -1,0 +1,72 @@
+* Tasks
+** TODO Test everything out with linux
+** DONE Refactor get fft to have a multiple / divider param
+   CLOSED: [2021-09-14 Tue 17:24]
+** DONE Make hydra full screen 1080p
+   CLOSED: [2021-09-09 Thu 17:41]
+** DONE Get webcam set up
+   CLOSED: [2021-09-09 Thu 17:41]
+** DONE Get project onto github
+   CLOSED: [2021-09-11 Sat 13:20]
+** DONE Fix all the emacs things that are making it hard to perform.
+   CLOSED: [2021-09-09 Thu 17:41]
+*** DONE Saving when buffer focus is lost.
+    CLOSED: [2021-09-07 Tue 21:14]
+*** DONE Need an easy way to comment out / comment block of code
+    CLOSED: [2021-09-07 Tue 21:15]
+**** Theres a plugin for that, that works with evil mode.
+*** DONE Make the repl errors silent in the web browser (no pop up messages!)
+    CLOSED: [2021-09-09 Thu 17:38]
+** DONE Fix arrow keys not working in edit mode
+   CLOSED: [2021-09-14 Tue 17:24]
+* Notes from the email they sent
+AUDIO: https://drive.google.com/drive/folders/1gJcxvAqft4Fme9FM4NREPKekopLJ0TZr?usp=sharing
+
+NOTES:
+
+1.Untethered (into techno track, quite abrasive) maybe good to bpm match visuals to josh’s synth rhythm
+
+
+——transition into next song———
+
+
+2.Divine Intervention (more fun and disco vibes) brighter geometrical caribou vibes? Pinks and blues
+
+
+3.Talks (more fun and disco vibes) similar to before with some transitionary elements - more reds and blues?
+
+
+4.Comfort Eating (more fun and disco vibes) combo of reds pinks blues from talks and divine to round off the disco punk part of set
+
+5.Project Bunker (ending goes crazy) introduction of clubs harsher vibes / strobes / monochrome / still geometric with more glitchy elements introduced
+
+6.Soap (potentially a bit darker at the beginning then opens out to be more expansive) purples whites - ethereal vibe but abrasive
+
+7.Sleek Form (ending goes crazy) precipice of abrasive club strobe vibes
+
+
+8.Exhaust/Surroundings (middle bit goes crazy into euphoric ending) the ending / climax / combination of darkness and light / abrasive and eurphoric / brooding at beginning - glitchy at middle opening up to eurphoric ending
+
+* Notes before the meeting with Josh and Darius
+** Can't MIDI sync but can use the audio frequencies as an input. I do all the syncing manually by hand
+** Qualify what they mean about strobes
+** Ask about 3D models
+*** Do they have any they want to use?
+*** Do they want me to make some?
+** Find out whether video is going to be feasible
+** Find out about
+** Find out what they want in between songs without an audible transition (fade to black, fade to logo, a visual transition?)
+** Find out what they want to do with logo
+*** Ask for the model off Josh
+** Talk about payment
+*** 100 for the FP live show, more for the fabric one and then if they want some touring visuals that'll be another discussion.
+** Find out about projector
+*** If the want it projected behind them then maybe a short throw if there's nowhere to mount it.
+*** May need to pop over to the venue to look at options for mounting it.
+
+* Notes after meeting with Josh and Darius
+** audio interface
+** Use the logo from josh
+** Make sure I can make simple adjustments on the fly
+** Find out about when I finish work
+** Buy a hdmi for the camera
