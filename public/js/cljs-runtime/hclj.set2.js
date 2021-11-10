@@ -16,7 +16,7 @@ return (multiplier * cljs.core.nth.cljs$core$IFn$_invoke$arity$2(a.fft,band));
 hclj.kb.setup_kb();
 hclj.midi.start_midi();
 s0.initCam((1));
-window.src(hclj.set2.s0).out(hclj.set2.o3);
+window.src(hclj.set2.s0).saturate((0)).out(hclj.set2.o3);
 hclj.set2.setup_cameras = (function hclj$set2$setup_cameras(){
 hclj.midi.set_button((56),(function (){
 return window.src(hclj.set2.s0).saturate((0)).out(hclj.set2.o3);
@@ -32,6 +32,10 @@ return window.src(hclj.set2.s0).contrast(1.5).saturate((0)).modulate(hclj.set2.o
 
 hclj.midi.set_button((59),(function (){
 return window.src(hclj.set2.s0).contrast(1.5).saturate((0)).modulate(hclj.set2.o0,0.07).invert().out(hclj.set2.o3);
+}));
+
+hclj.midi.set_button((60),(function (){
+return window.src(hclj.set2.s0).saturate((0)).contrast((5)).modulate(hclj.set2.o0,0.01).out(hclj.set2.o3);
 }));
 
 hclj.midi.set_button((48),(function (){
@@ -294,7 +298,7 @@ hclj.midi.set_button((5),(function (){
 return window.osc((10),0.1,0.4).modulate(window.noise((6)),0.2).diff(window.src(hclj.set2.o0)).modulateScrollY(window.osc((2)).modulate(window.osc().rotate(),0.11)).scale(1.2).contrast(1.5).modulate(hclj.set2.o0,0.001).modulate(window.voronoi((10)).pixelate([(5),(10),(20),(80),(1)].fast((10)),[(15),(30),(2),(1)].fast((7))).contrast((2)),0.2).out(hclj.set2.o1);
 }));
 
-return hclj.midi.set_button((6),(function (){
+return hclj.midi.set_button((7),(function (){
 return window.osc((10),0.1,0.4).modulate(window.noise((6)),0.2).diff(window.src(hclj.set2.o0)).modulateScrollY(window.osc((2)).modulate(window.osc().rotate(),0.11)).scale(1.2).contrast(1.5).modulate(hclj.set2.o0,0.002).modulate(window.voronoi((10)).pixelate((50),(function (){
 return ((10) + hclj.set2.get_fft((0),(20)));
 })),0.3).add(hclj.set2.o0).out(hclj.set2.o1);

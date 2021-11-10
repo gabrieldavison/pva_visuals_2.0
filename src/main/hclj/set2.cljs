@@ -27,7 +27,7 @@
 
 ;; Sets up webcam on output o3
 (. js/s0 (initCam 1))
-(h (src s0) (out o3))
+(h (src s0) (saturate 0) (out o3))
 
 (defn setup-cameras []
 
@@ -53,6 +53,12 @@
                       (saturate 0)
                       (modulate o0 0.07)
                       (invert)
+                      (out o3))))
+  (set-button 60 (fn []
+                   (h (src s0)
+                      (saturate 0)
+                      (contrast 5)
+                      (modulate o0 0.01)
                       (out o3))))
 
   ;; color progression
@@ -534,7 +540,7 @@
                                   (contrast 2) ) 0.2)
                      (out o1))
                   ))
-  (set-button 6 (fn []
+  (set-button 7 (fn []
                   (h (osc 10 0.1 0.4)
                      (modulate (h (noise 6)) 0.2)
                      (diff (h (src o0)))
